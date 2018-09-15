@@ -9,7 +9,8 @@ class MainHandler(tornado.web.RequestHandler):
 def make_app():
     return tornado.web.Application([
         (r"/timeline", MainHandler),
-    ])
+
+    ], debug=True)
 
 if __name__ == "__main__":
     app = make_app()

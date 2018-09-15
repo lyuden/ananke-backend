@@ -15,14 +15,9 @@ COPY requirements.txt /ananke/
 RUN /ananke/venv/bin/pip install --upgrade pip
 RUN /ananke/venv/bin/pip install -r /ananke/requirements.txt
 
-COPY server.py /ananke/
-
-RUN mkdir /ananke/tests/
-COPY /tests/   /ananke/tests/
-
 WORKDIR /ananke/
 
-CMD ["./venv/bin/python","server.py"]
+CMD ["./venv/bin/python","webapp/server.py"]
 
 
 

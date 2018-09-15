@@ -4,5 +4,8 @@ services:
     build: ./
     env_file:
       - ./ananke.env
+    volumes:
+      - ./webapp/:/ananke/webapp/
+      - ./tests/:/ananke/tests/
     ports:
       - 11000:8888

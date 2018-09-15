@@ -1,1 +1,1 @@
-# ananke-backend
+This project named after greek Goddes of Fate that is often portrayed with spindle in her hand. The goal of this project is to create a time thread that can hold and organize daily life, by visualizing daily routines and helping keeping context for them in useful way.

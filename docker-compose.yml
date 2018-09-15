@@ -1,0 +1,8 @@
+version: '3'
+services:
+  ananke:
+    build: ./
+    env_file:
+      - ./ananke.env
+    ports:
+      - 11000:8888

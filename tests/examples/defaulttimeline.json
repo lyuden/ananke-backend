@@ -1,0 +1,17 @@
+{
+  "regions":[
+
+    {"start":"10:00",
+      "end": "12:00",
+      "name": "Programming"
+    },
+    {"start":"12:00",
+      "end": "12:30",
+      "name": "Eating"
+    },
+    {"start":"12:30",
+      "end": "14:30",
+      "name": "Programming"
+    }
+  ]
+}

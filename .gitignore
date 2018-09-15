@@ -1,2 +1,6 @@
 .idea
 *.pyc
+.eric6project
+*.e4p
+*.geany
+*.log
